@@ -1,0 +1,24 @@
+{
+  "name": "chronos",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bun": "bun",
+    "run": "bun run server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.2.1",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "@types/validator": "^13.12.2",
+    "typescript": "^5.7.3"
+  }
+}
